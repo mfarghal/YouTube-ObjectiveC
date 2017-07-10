@@ -7,7 +7,29 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Channel.h"
 @interface Video : NSObject
 
+- (NSString *)thumbnailImageName;
+- (void)setThumbnailImageName:(NSString *)newValue;
+
+- (NSString *)title;
+- (void)setTitle:(NSString *)newValue;
+
+- (Channel *)channel;
+- (void)setChannel:(Channel *)newValue;
+
+- (NSNumber *)numberOfViews;
+
+- (void)setNumberOfViews:(NSNumber *)newValue;
+
+- (NSData *)uploadDate;
+
+- (void)setUploadDate:(NSData *)newValue;
+
 @end
+
+
+/**/
+ 
+

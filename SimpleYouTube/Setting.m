@@ -1,3 +1,4 @@
+
 //
 //  Setting.m
 //  SimpleYouTube
@@ -9,5 +10,10 @@
 #import "Setting.h"
 
 @implementation Setting
-
+-(id)initWithName:(NSString*)name ImageName:(NSString*)imgName{
+    self = [super init];
+    self.imgName = imgName;
+    self.name = name;
+    return self;
+}
 @end

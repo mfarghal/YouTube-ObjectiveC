@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MenuCell : UICollectionViewCell
-
+-(void)setImageIcon:(UIImage *)Img;
 @end

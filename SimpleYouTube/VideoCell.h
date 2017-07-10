@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Video.h"
 @interface VideoCell : UICollectionViewCell
 
+@property (nonatomic,weak)Video *video;
+- (void)setVideoToCell:(Video *)video;
 @end

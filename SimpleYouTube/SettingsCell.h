@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SettingsCell : UICollectionViewCell
-
+-(void)setCellInfoWithName:(NSString*)name ImgName:(NSString*)imgname;
 @end

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HomeController.h"
+#import "Extension-UIColor.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,48 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    UICollectionViewFlowLayout *lay = [[UICollectionViewFlowLayout alloc] init];
+    UICollectionViewController *collectionView = [[HomeController alloc] initWithCollectionViewLayout:lay];
+    
+    UINavigationController *naviController = [[UINavigationController alloc]initWithRootViewController:collectionView];
+    
+    [self.window setRootViewController:naviController];
+    
+    
+    [[naviController navigationBar] setBarTintColor:[UIColor ExactRGBWithRed:230 Green:32 Blue:32]];
+    
+    
+    //This Section For delete Shadow come with NavigationBar
+    [[naviController navigationBar] setShadowImage:[[UIImage alloc]init]];
+    [[naviController navigationBar] setBackgroundImage:[[UIImage alloc]init] forBarMetrics:UIBarMetricsDefault];
+    
+    
+     application.statusBarStyle = UIStatusBarStyleLightContent;
+    
+    
+    [[naviController navigationBar] setTranslucent:NO];
+    
+
+    
+    UIView *statusBarBackground = [[UIView alloc]init];
+    [statusBarBackground setBackgroundColor:[UIColor ExactRGBWithRed:190 Green:32 Blue:32]];
+    [self.window addSubview:statusBarBackground];
+    
+    
+    /*
+     Must add to info.plist
+      controller-based status bar appearance = NO
+     */
+    
+    statusBarBackground.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.window addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[statusBarBackground]|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(statusBarBackground)]];
+    [self.window addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[statusBarBackground(==20)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(statusBarBackground)]];
+    [self.window setNeedsUpdateConstraints];
+    
     return YES;
 }
 

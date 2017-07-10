@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HomeController.h"
+@interface SettingsLuncher : NSObject<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
-@interface SettingsLuncher : NSObject
+@property (nonatomic,strong) HomeController *homeController;
 
+- (id)init;
+- (void)showSettingsCollection;
 @end

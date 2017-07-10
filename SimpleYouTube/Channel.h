@@ -10,4 +10,10 @@
 
 @interface Channel : NSObject
 
+- (NSString *)name;
+- (void)setName:(NSString *)newValue;
+
+- (NSString *)profileImageName;
+- (void)setProfileImageName:(NSString *)newValue;
+
 @end

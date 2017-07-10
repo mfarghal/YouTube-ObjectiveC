@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MenuBar : UIView
+@interface MenuBar : UIView<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+
+@property (nonatomic,strong) UICollectionView *_collectionView ;
+
 
 @end

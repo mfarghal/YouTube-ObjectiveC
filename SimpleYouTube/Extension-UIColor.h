@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Extension_UIColor : UIColor
-
+@interface UIColor (Extension_UIColor)
++ (UIColor *) ExactRGBWithRed:(CGFloat)red Green:(CGFloat)green Blue:(CGFloat)blue ;
 @end

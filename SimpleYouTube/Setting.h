@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Setting : NSObject
+@property (nonatomic) NSString *name;
+@property (nonatomic) NSString *imgName;
 
+
+
+-(id)initWithName:(NSString*)name ImageName:(NSString*)imgName;
 @end

@@ -8,6 +8,29 @@
 
 #import "Channel.h"
 
-@implementation Channel
+
+@implementation Channel{
+    NSString *name;
+    NSString *profileImageName;
+    
+    
+}
+
+
+- (NSString *)name {
+    return name;
+}
+
+- (void)setName:(NSString *)newValue {
+    name = newValue;
+}
+
+- (NSString *)profileImageName {
+    return profileImageName;
+}
+
+- (void)setProfileImageName:(NSString *)newValue {
+    profileImageName = newValue;
+}
 
 @end

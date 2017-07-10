@@ -9,10 +9,22 @@
 /* Begin PBXBuildFile section */
 		5EC1E92A1F06B31B005B291A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E9291F06B31B005B291A /* main.m */; };
 		5EC1E92D1F06B31B005B291A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E92C1F06B31B005B291A /* AppDelegate.m */; };
-		5EC1E9301F06B31B005B291A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E92F1F06B31B005B291A /* ViewController.m */; };
 		5EC1E9331F06B31B005B291A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC1E9311F06B31B005B291A /* Main.storyboard */; };
 		5EC1E9351F06B31B005B291A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC1E9341F06B31B005B291A /* Assets.xcassets */; };
 		5EC1E9381F06B31B005B291A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC1E9361F06B31B005B291A /* LaunchScreen.storyboard */; };
+		5EC1E9411F06B354005B291A /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E9401F06B354005B291A /* HomeController.m */; };
+		5EC1E94F1F06DB72005B291A /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E94D1F06DB72005B291A /* VideoCell.m */; };
+		5EC1E9501F06DB72005B291A /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC1E94E1F06DB72005B291A /* VideoCell.xib */; };
+		5EC1E99E1F09489D005B291A /* Extension-UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E99D1F09489D005B291A /* Extension-UIColor.m */; };
+		5EC1E9A41F0965DD005B291A /* MenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E9A31F0965DD005B291A /* MenuBar.m */; };
+		5EC1E9AD1F0B0C43005B291A /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E9AB1F0B0C43005B291A /* MenuCell.m */; };
+		5EC1E9AE1F0B0C43005B291A /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC1E9AC1F0B0C43005B291A /* MenuCell.xib */; };
+		5EC1E9B11F0D9A39005B291A /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E9B01F0D9A39005B291A /* Video.m */; };
+		5EC1E9B41F0DA7E7005B291A /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E9B31F0DA7E7005B291A /* Channel.m */; };
+		5EC1E9C11F110DAD005B291A /* SettingsLuncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E9C01F110DAD005B291A /* SettingsLuncher.m */; };
+		5EC1E9C51F113DD9005B291A /* SettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E9C31F113DD9005B291A /* SettingsCell.m */; };
+		5EC1E9C61F113DD9005B291A /* SettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC1E9C41F113DD9005B291A /* SettingsCell.xib */; };
+		5EC1E9C91F114197005B291A /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1E9C81F114197005B291A /* Setting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +32,33 @@
 		5EC1E9291F06B31B005B291A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EC1E92B1F06B31B005B291A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EC1E92C1F06B31B005B291A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5EC1E92E1F06B31B005B291A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5EC1E92F1F06B31B005B291A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5EC1E9321F06B31B005B291A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EC1E9341F06B31B005B291A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC1E9371F06B31B005B291A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC1E9391F06B31B005B291A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC1E93F1F06B354005B291A /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		5EC1E9401F06B354005B291A /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		5EC1E94C1F06DB72005B291A /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		5EC1E94D1F06DB72005B291A /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		5EC1E94E1F06DB72005B291A /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		5EC1E99C1F09489D005B291A /* Extension-UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Extension-UIColor.h"; sourceTree = "<group>"; };
+		5EC1E99D1F09489D005B291A /* Extension-UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Extension-UIColor.m"; sourceTree = "<group>"; };
+		5EC1E9A21F0965DD005B291A /* MenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuBar.h; sourceTree = "<group>"; };
+		5EC1E9A31F0965DD005B291A /* MenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuBar.m; sourceTree = "<group>"; };
+		5EC1E9AA1F0B0C43005B291A /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		5EC1E9AB1F0B0C43005B291A /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		5EC1E9AC1F0B0C43005B291A /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		5EC1E9AF1F0D9A38005B291A /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		5EC1E9B01F0D9A39005B291A /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		5EC1E9B21F0DA7E7005B291A /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		5EC1E9B31F0DA7E7005B291A /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		5EC1E9BF1F110DAD005B291A /* SettingsLuncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsLuncher.h; sourceTree = "<group>"; };
+		5EC1E9C01F110DAD005B291A /* SettingsLuncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsLuncher.m; sourceTree = "<group>"; };
+		5EC1E9C21F113DD9005B291A /* SettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCell.h; sourceTree = "<group>"; };
+		5EC1E9C31F113DD9005B291A /* SettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCell.m; sourceTree = "<group>"; };
+		5EC1E9C41F113DD9005B291A /* SettingsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsCell.xib; sourceTree = "<group>"; };
+		5EC1E9C71F114197005B291A /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		5EC1E9C81F114197005B291A /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +91,10 @@
 		5EC1E9271F06B31B005B291A /* SimpleYouTube */ = {
 			isa = PBXGroup;
 			children = (
-				5EC1E92B1F06B31B005B291A /* AppDelegate.h */,
-				5EC1E92C1F06B31B005B291A /* AppDelegate.m */,
-				5EC1E92E1F06B31B005B291A /* ViewController.h */,
-				5EC1E92F1F06B31B005B291A /* ViewController.m */,
+				5EC1E9A11F096371005B291A /* Models */,
+				5EC1E9A01F096364005B291A /* View */,
+				5EC1E99F1F09635A005B291A /* Controller */,
+				5EC1E9981F09434B005B291A /* Extensions */,
 				5EC1E9311F06B31B005B291A /* Main.storyboard */,
 				5EC1E9341F06B31B005B291A /* Assets.xcassets */,
 				5EC1E9361F06B31B005B291A /* LaunchScreen.storyboard */,
@@ -77,6 +110,59 @@
 				5EC1E9291F06B31B005B291A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EC1E9981F09434B005B291A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5EC1E99C1F09489D005B291A /* Extension-UIColor.h */,
+				5EC1E99D1F09489D005B291A /* Extension-UIColor.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		5EC1E99F1F09635A005B291A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5EC1E92B1F06B31B005B291A /* AppDelegate.h */,
+				5EC1E92C1F06B31B005B291A /* AppDelegate.m */,
+				5EC1E93F1F06B354005B291A /* HomeController.h */,
+				5EC1E9401F06B354005B291A /* HomeController.m */,
+				5EC1E9BF1F110DAD005B291A /* SettingsLuncher.h */,
+				5EC1E9C01F110DAD005B291A /* SettingsLuncher.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5EC1E9A01F096364005B291A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EC1E94C1F06DB72005B291A /* VideoCell.h */,
+				5EC1E94D1F06DB72005B291A /* VideoCell.m */,
+				5EC1E94E1F06DB72005B291A /* VideoCell.xib */,
+				5EC1E9A21F0965DD005B291A /* MenuBar.h */,
+				5EC1E9A31F0965DD005B291A /* MenuBar.m */,
+				5EC1E9AA1F0B0C43005B291A /* MenuCell.h */,
+				5EC1E9AB1F0B0C43005B291A /* MenuCell.m */,
+				5EC1E9AC1F0B0C43005B291A /* MenuCell.xib */,
+				5EC1E9C21F113DD9005B291A /* SettingsCell.h */,
+				5EC1E9C31F113DD9005B291A /* SettingsCell.m */,
+				5EC1E9C41F113DD9005B291A /* SettingsCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5EC1E9A11F096371005B291A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EC1E9AF1F0D9A38005B291A /* Video.h */,
+				5EC1E9B01F0D9A39005B291A /* Video.m */,
+				5EC1E9B21F0DA7E7005B291A /* Channel.h */,
+				5EC1E9B31F0DA7E7005B291A /* Channel.m */,
+				5EC1E9C71F114197005B291A /* Setting.h */,
+				5EC1E9C81F114197005B291A /* Setting.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +223,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC1E9C61F113DD9005B291A /* SettingsCell.xib in Resources */,
 				5EC1E9381F06B31B005B291A /* LaunchScreen.storyboard in Resources */,
+				5EC1E9501F06DB72005B291A /* VideoCell.xib in Resources */,
+				5EC1E9AE1F0B0C43005B291A /* MenuCell.xib in Resources */,
 				5EC1E9351F06B31B005B291A /* Assets.xcassets in Resources */,
 				5EC1E9331F06B31B005B291A /* Main.storyboard in Resources */,
 			);
@@ -150,8 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC1E9301F06B31B005B291A /* ViewController.m in Sources */,
 				5EC1E92D1F06B31B005B291A /* AppDelegate.m in Sources */,
+				5EC1E9B11F0D9A39005B291A /* Video.m in Sources */,
+				5EC1E9C91F114197005B291A /* Setting.m in Sources */,
+				5EC1E9AD1F0B0C43005B291A /* MenuCell.m in Sources */,
+				5EC1E94F1F06DB72005B291A /* VideoCell.m in Sources */,
+				5EC1E9C11F110DAD005B291A /* SettingsLuncher.m in Sources */,
+				5EC1E9411F06B354005B291A /* HomeController.m in Sources */,
+				5EC1E9C51F113DD9005B291A /* SettingsCell.m in Sources */,
+				5EC1E99E1F09489D005B291A /* Extension-UIColor.m in Sources */,
+				5EC1E9A41F0965DD005B291A /* MenuBar.m in Sources */,
+				5EC1E9B41F0DA7E7005B291A /* Channel.m in Sources */,
 				5EC1E92A1F06B31B005B291A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +407,7 @@
 				5EC1E93E1F06B31B005B291A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
